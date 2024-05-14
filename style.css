@@ -1,0 +1,119 @@
+body {
+    padding: 0 0;
+    margin: 0 0;
+    background-color: lightgray;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    background-color: grey;
+    padding: 20px 30px;
+    color: white;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0;
+    font-weight: 700;
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+}
+
+header h1:hover {
+    color: rgb(200 255 255);
+}
+
+header p {
+    margin: 0 0;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+}
+
+div.box {
+    width: 230px;
+    height: auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    border: groove 4px black;
+    transition: 0.1s;
+}
+
+div.box:hover {
+    box-shadow: -5px 5px 8px 0.5px gray;
+}
+
+div.box img {
+    width: 230px;
+    height: 170px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+div.box p#title {
+    font-size: 16px;
+}
+
+div.box p#desc {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+div.box p#desc1 {
+    font-size: 12px;
+    margin: 0 0;
+    display: inline-block;
+    color: dimgray;
+}
+
+div.box p#desc1_crossed {
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0 0;
+    display: inline-block;
+    color: dimgray;
+}
+
+div.box p#desc2 {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 8px;
+    margin-right: 140px;
+    color: red;
+}
+
+div.collection {
+    background-color: lavender;
+    padding: 10px 10px;
+    margin: 30px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+            
+div#collectioncollection h6 {
+    font-size: 24px;
+    margin: 30px 0px;
+    margin-left: 50px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
