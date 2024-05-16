@@ -1,0 +1,168 @@
+body {
+    width: auto;
+}
+
+#flex {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 18%;
+}
+
+div#imgbox {
+    margin: 10px;
+    padding: 5px;
+    width: 429px;
+    background-color: #fff;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 4px;
+}
+
+img#img {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+p#imgtext {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+div#details {
+    border: solid 2px black;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+div#details ul{
+    font-family: "montserrat", sans-serif;
+}
+
+div#rightbar {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 2px black;
+    margin: 10px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 90%;
+    text-align: center;
+}
+
+div#rightbar h1 {
+    font-family: "montserrat", sans-serif;
+    font-size: 36px;
+}
+
+div#rightbar hr {
+    border: solid 2px black;
+}
+
+p#price, sup {
+    font-family: "montserrat", sans-serif;
+    display: inline-block;
+}
+
+p#price {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+sup#pricesup {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div#rightbar p#oldprice {
+    font-family: "montserrat", sans-serif;
+    font-size: 18px;
+    margin: 0 0;
+    margin-left: 10px;
+    display: inline-block;
+    color: dimgray;
+}
+
+div#rightbar p#oldprice_crossed {
+    font-family: "montserrat", sans-serif;
+    text-decoration: line-through;
+    font-size: 18px;
+    margin: 0 0;
+    display: inline-block;
+    color: dimgray;
+}
+
+p#normal {
+    font-family: "montserrat", sans-serif;
+    font-size: 16px;
+}
+
+button {
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    width: 350px;
+    height: 50px;
+    border: solid 4px;
+    margin: 10px;
+    border-radius: 555px;
+    transition: 0.1s;
+}
+
+button#ordernow:hover, button#atc:hover {
+    background-color: #eb8c10;
+}
+
+button#ordernow {
+    background-color: orange;
+    border: solid 4px #eb8c10;
+}
+
+button#atc {
+    background-color: gold;
+    border: solid 4px #eb8c10;
+}
+
+div#stars {
+    bottom: 0px;
+    margin: 0px;
+    margin-bottom: -30px;
+    display: flex;
+    position: relative;
+}
+
+p#reviews {
+    font-family: "montserrat", sans-serif;
+}
+
+i {
+    color: gold;
+}
+
+div#reviewsbox {
+    left: 40%;
+    text-align: center;
+    display: inline-block;
+    bottom: 0px;
+    position: absolute;
+}
